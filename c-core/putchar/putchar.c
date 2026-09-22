@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-int	putchar(char c)
+int	gm_putchar(char c)
 {
 	(void)c;
 	write(1,&c,1);
